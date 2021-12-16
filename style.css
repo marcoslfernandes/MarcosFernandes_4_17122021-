@@ -1,0 +1,373 @@
+@font-face {
+    font-family: 'KaushanScript-Regular';
+    src: url('KaushanScript-Regular.eot');
+    src: url('KaushanScript-Regular.eot?#iefix') format('embedded-opentype'),
+         url('KaushanScript-Regular.ttf') format('truetype'),
+         url('KaushanScript-Regular.svg#cac_Kaushan') format('svg');  
+}
+
+@font-face {
+    font-family: 'EncodeSans';
+    src: url('EncodeSans-VariableFont_wdth,wght.eot');
+    src: url('EncodeSans-VariableFont_wdth,wght.eot?#iefix') format('embedded-opentype'),
+         url('EncodeSans-VariableFont_wdth,wght.ttf') format('truetype'),
+         url('EncodeSans-VariableFont_wdth,wght.svg#cac_EncodeSans') format('svg');  
+}
+
+
+html, body
+    {
+
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+
+    }
+
+    body{background-image: url("image-de-presentation.jpg");
+   }
+
+    @media screen and (max-width: 767px){
+        html, body
+    {
+
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+
+    }
+    }
+
+header{
+    position: relative;
+    bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 20px;
+background-image: none;
+background-color: #FFF;
+}
+
+h1{ font-family: 'KaushanScript-Regular';}
+
+h2{ font-family: 'EncodeSans';
+font-weight: 1000px;
+}
+
+h3{
+background-color: #F3976C;
+color: #FFF;
+padding-top: 30px;
+padding-bottom: 30px;
+    margin-top: 100px;
+    font-family: 'EncodeSans';
+text-align: center;
+font-size: 25px;
+font-weight: bold;}
+
+h4{font-family:'KaushanScript-Regular';}
+
+p{font-family: 'EncodeSans';}
+
+main{
+    
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: #F3976C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    bottom: 30px;
+   
+}
+
+@media screen and (max-width: 767px){
+    main{
+        flex-direction: column;
+    }
+}
+
+
+
+.services{
+  
+    text-align: center;
+    transition-property: all;
+
+}
+
+
+
+.services:hover .icon{
+transform: scale(1.5);
+transition-timing-function: ease;
+}
+
+.icon{
+    font-size: 50px;
+    transition-duration: 800ms;
+}
+
+section{
+    background-color:#FFF ;
+
+
+}
+
+.expertises1{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+}
+
+@media screen and (max-width: 767px){
+    .expertises1{
+        flex-direction: column;
+    }
+}
+
+
+.expertises2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+@media screen and (max-width: 767px){
+    .expertises2{
+        flex-direction: column;
+    }
+}
+
+figure{
+    border: solid 2px #F3976C;
+    border-radius: 20px;
+    transition: 1000ms;
+}
+
+figure img{
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+figcaption{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+figure:hover{
+    background-color: #F3976C;
+   color: #FFF;
+}
+
+aside{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    height: 250px;
+    position: relative;
+    bottom: 100px;
+    
+}
+
+@media screen and (max-width: 767px){
+    aside{
+        flex-direction: column;
+    }
+}
+
+.but{
+    width: 50%;
+    font-family: 'EncodeSans';
+    font-size: 22.5px;
+    background-color: #F3976C;
+    position: relative;
+}
+
+.objectif{
+    position: relative;
+    top: 25%;
+ 
+}
+
+@media screen and (max-width: 992px){
+
+    .objectif{
+        top: 10%;
+    }
+    
+    }
+
+.citation{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    border: solid #F3976C;
+}
+
+.phrase{
+    font-family: 'EncodeSans';
+    font-style: italic;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    top: 10px;
+}
+
+@media screen and (max-width: 992px){
+    .phrase{
+        top: -5px;
+    }
+}
+
+.aspa1{
+    font-family: 'EncodeSans';
+    font-size: 40px;
+    font-style: italic;
+    top: 20%;
+}
+
+.aspa2{
+    font-family: 'EncodeSans';
+    font-size: 40px;
+    font-style: italic;
+    position: relative;
+    left: 90%;
+    top: 10%;
+}
+
+@media screen and (max-width: 992px){
+    .aspa2{
+        top: -5%;
+    }
+}
+
+.reference{
+    font-family: 'EncodeSans';
+    position: relative;
+    left: 40%;
+    top: 10%;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 992px){
+    .reference{
+        top: -1%;
+        left: 15%;
+    }
+}
+
+.contact{
+    background-image: url("la-chouette-agence-banniere.jpg");
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+ padding-top: 80px;
+ padding-bottom: 80px;
+ border-top: solid #F3976C;
+}
+
+
+footer{
+    background-color:#F3976C;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+
+
+ul li{list-style: none;
+font-family: 'EncodeSans';}
+
+.fa{padding-right: 150px;
+position: relative;
+left: 50px;
+top: 10px;
+font-size: 20px;
+transition: 500ms;}
+
+.fa:hover{color: #FFF;
+    
+}
+
+.texte1{font-family: 'EncodeSans';
+font-size: 50px;
+color: #FFF;
+    width: 550px;
+    position: relative;
+    left: 30%;
+    bottom: 20px;
+
+}
+
+@media screen and (max-width: 992px){
+    .texte1{
+        left: 15%;
+    }
+}
+
+.texte2{font-family: 'EncodeSans';
+    font-size: 20px;
+    color: #FFF;
+    border: solid #F3976C;
+    background-color: #F3976C;
+opacity: 75%;
+    width: 500px;
+    position: relative;
+    left: 32%;
+    top: 20px;
+    }
+
+    @media screen and (max-width: 992px){
+        .texte2{
+            left: 20%;
+        }
+    }
+
+.button{
+    font-family: 'EncodeSans';
+    position: relative;
+    left: 45%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #FFF;
+    color:#F3976C;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    border-radius: 20px;
+    transition: 800ms;
+}
+
+@media screen and (max-width: 992px){
+    .button{
+        left: 40%;
+    }
+}
+
+.button:hover{
+    transform: scale(1.2);
+}
+
+.button a{
+    text-decoration: none;
+    color:#F3976C;
+}
+
