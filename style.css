@@ -117,7 +117,7 @@ transition-timing-function: ease;
 
 section{
     background-color:#FFF ;
-
+    padding-bottom: 50px;
 
 }
 
@@ -179,7 +179,7 @@ aside{
     margin-bottom: 50px;
     height: 250px;
     position: relative;
-    bottom: 100px;
+    bottom: 50px;
     
 }
 
@@ -276,7 +276,6 @@ aside{
     text-align: center;
     display: flex;
     flex-direction: column;
-
  padding-top: 80px;
  padding-bottom: 80px;
  border-top: solid #F3976C;
@@ -371,3 +370,21 @@ opacity: 75%;
     color:#F3976C;
 }
 
+form{
+    background-color: #F3976C;
+    font-family: 'EncodeSans';
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 500px;
+    position: relative;
+    left: 30%;
+    border-radius: 15px;
+    opacity: 80%;
+}
+
+.button-form{background-color: #FFF;
+border-radius: 10px;
+border: solid #F3976C}
+
+.form-nom{position: relative;
+right: 50px;}
