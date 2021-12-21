@@ -6,16 +6,19 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta name="keywords" content="site web, agence design, lyon, illustration, stratégie, communication">
+	<meta name="description" content="Une agence web qui propose des services pour les entreprises de Lyon, France">
 	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" >
 	<script src="https://kit.fontawesome.com/ef90522a40.js" crossorigin="anonymous"></script>
 	<title>La Chouette Agence</title>
 
 </head>
 
+
 <body>
 	<header>
-		<img src="img/logo.png" alt="Logo" />
+		<img src="img/logo.webp" alt="Logo" />
 		<h1>La Chouette Agence</h1>
 	</header>
 
@@ -75,7 +78,7 @@
 <h3>Voici quelques-unes de nos réalisations :</h3>
 <div class="expertises1">
 	<figure>
-	<img src="img/1.jpg" alt="journal" />
+	<img src="img/1.webp" alt="journal" />
 	<figcaption>
 	<p>
 		MÉDIAS
@@ -84,7 +87,7 @@
 </figcaption>
 </figure>
 <figure>
-	<img src="img/2.jpg" alt="photographes" />
+	<img src="img/2.webp" alt="photographes" />
 	<figcaption>
 	<p>
 		PHOTOGRAPHIE
@@ -95,7 +98,7 @@
 </div>
 <div class="expertises2">
 	<figure>
-	<img src="img/3.bmp" alt="Voyageur" />
+	<img src="img/3.webp" alt="Voyageur" />
 	<figcaption>
 	<p>
 		VOYAGES
@@ -103,7 +106,7 @@
 	</figcaption>
 </figure>
 <figure>
-	<img src="img/4.bmp" alt="Mariage" />
+	<img src="img/4.webp" alt="Mariage" />
 	<figcaption>
 	<p>
 		 MARIAGE
@@ -121,24 +124,25 @@
 			<label>
 				Nom
 			</label>
-			<input id="name" class="form-control" required />
+			<input type="text" id="name" class="form-control" required />
 		</div>
 		<div class="form-mail">
 			<label>
 				Adresse email
 			</label>
-			<input id="email" class="form-control" type="email" required />
+			<input type="email" id="email" class="form-control" required />
 		</div>
 		<div class="form-question">
 			<label>
 				Comment nous avez-vous connu ?
 			</label>
-			<input class="form-control" type="email" required id="input_504" />
+			<input type="text" id="question" class="form-control" required />
 		</div>
 		<div class="form-brief">
 			<label>
-				Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-			</label><textarea></textarea>
+				Brief de votre projet (Ajoutez autant de détails que nécessaire)
+			</label>
+			<textarea></textarea>
 		</div> 
 		<button class="button-form" type="submit">
 			Envoyer

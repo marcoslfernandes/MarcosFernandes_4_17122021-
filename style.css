@@ -4,6 +4,7 @@
     src: url('KaushanScript-Regular.eot?#iefix') format('embedded-opentype'),
          url('KaushanScript-Regular.ttf') format('truetype'),
          url('KaushanScript-Regular.svg#cac_Kaushan') format('svg');  
+         font-display: swap;
 }
 
 @font-face {
@@ -11,7 +12,8 @@
     src: url('EncodeSans-VariableFont_wdth,wght.eot');
     src: url('EncodeSans-VariableFont_wdth,wght.eot?#iefix') format('embedded-opentype'),
          url('EncodeSans-VariableFont_wdth,wght.ttf') format('truetype'),
-         url('EncodeSans-VariableFont_wdth,wght.svg#cac_EncodeSans') format('svg');  
+         url('EncodeSans-VariableFont_wdth,wght.svg#cac_EncodeSans') format('svg'); 
+         font-display: swap; 
 }
 
 
@@ -54,6 +56,11 @@ background-image: none;
 background-color: #FFF;
 }
 
+header img{
+    width: 150px;
+    height: 150px;
+}
+
 h1{ font-family: 'KaushanScript-Regular';}
 
 h2{ font-family: 'EncodeSans';
@@ -62,7 +69,7 @@ font-weight: 1000px;
 
 h3{
 background-color: #F3976C;
-color: #FFF;
+color: black;
 padding-top: 30px;
 padding-bottom: 30px;
     margin-top: 100px;
@@ -167,8 +174,11 @@ section{
 @media screen and (max-width: 767px){
     .expertises2{
         flex-direction: column;
+        position: relative;
+        bottom: 40px;
     }
 }
+
 
 figure{
     border: solid 2px #F3976C;
@@ -179,6 +189,8 @@ figure{
 figure img{
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
+    width: 280px;
+    height: 300px;
 }
 
 
@@ -187,18 +199,21 @@ figure img{
 @media screen and (max-width: 767px){
     figure img{
         width: 330px;
+        height: 300px;
     }
 }
 
 @media screen and (max-width: 375px){
     figure img{
         width: 291px;
+        height: 300px;
     }
 }
 
 @media screen and (max-width: 320px){
 figure img{
     width: 236px;
+    height: 200px;
 }}
 
 figcaption{
