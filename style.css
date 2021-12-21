@@ -47,7 +47,7 @@ html, body
 header{
     position: relative;
     bottom: 10px;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 10px;
 text-align: center;
 margin-top: 10px;
@@ -56,9 +56,70 @@ background-image: none;
 background-color: #FFF;
 }
 
+
+
 header img{
     width: 150px;
     height: 150px;
+    padding-top: 10px;
+}
+
+.phrase-debut{font-family: 'EncodeSans';
+font-size: 14px;
+font-style: italic;
+position: relative;
+padding-bottom: 5px;
+bottom: 15px;
+border-bottom: solid #F3976C}
+
+@media screen and (max-width: 767px){
+    .phrase-debut{
+       border-bottom: none;
+    }
+}
+
+nav{border-bottom: solid 10px #F3976C;
+}
+
+
+
+@media screen and (max-width: 767px){
+    nav ul li{position: relative;
+      left: -440px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    nav ul li{position: relative;
+        right: 250px;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    nav ul li{
+        position: relative;
+        left: 300px;
+    }
+}
+
+nav a{text-decoration: none;
+color: black;}
+
+nav a:hover{
+    color: #F3976C;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    position: relative;
+    left: 400px;
+}
+
+nav ul li{
+    padding-left: 40px;
 }
 
 h1{ font-family: 'KaushanScript-Regular';}
@@ -190,7 +251,7 @@ figure img{
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
     width: 280px;
-    height: 300px;
+    height: 302px;
 }
 
 
