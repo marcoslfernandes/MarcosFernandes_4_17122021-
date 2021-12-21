@@ -28,7 +28,7 @@ html, body
 
     }
 
-    body{background-image: url("image-de-presentation.jpg");
+    body{background-image: url("image-de-presentation.webp");
    }
 
     @media screen and (max-width: 767px){
@@ -394,7 +394,7 @@ aside{
 }
 
 .contact{
-    background-image: url("la-chouette-agence-banniere.jpg");
+    background-image: url("la-chouette-agence-banniere.webp");
     text-align: center;
     display: flex;
     flex-direction: column;
