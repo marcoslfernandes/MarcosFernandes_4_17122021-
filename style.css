@@ -1,1 +1,794 @@
-@font-face{font-family:KaushanScript-Regular;src:url(KaushanScript-Regular.eot);src:url(KaushanScript-Regular.eot?#iefix) format('embedded-opentype'),url(KaushanScript-Regular.ttf) format('truetype'),url(KaushanScript-Regular.svg#cac_Kaushan) format('svg');font-display:swap}@font-face{font-family:EncodeSans;src:url(EncodeSans-VariableFont_wdth,wght.eot);src:url(EncodeSans-VariableFont_wdth,wght.eot?#iefix) format('embedded-opentype'),url(EncodeSans-VariableFont_wdth,wght.ttf) format('truetype'),url(EncodeSans-VariableFont_wdth,wght.svg#cac_EncodeSans) format('svg');font-display:swap}body,html{width:100%;height:100%;margin:0;padding:0;overflow-x:hidden}body{background-image:url(image-de-presentation.webp)}@media screen and (max-width:767px){body,html{width:100%;height:100%;margin:0;padding:0;overflow-x:hidden}}header{position:relative;bottom:10px;padding-top:15px;padding-bottom:10px;text-align:center;margin-top:10px;margin-bottom:20px;background-image:none;background-color:#fff}header img{width:150px;height:150px;padding-top:10px}.phrase-debut{font-family:EncodeSans;font-size:14px;font-style:italic;position:relative;padding-bottom:5px;bottom:15px;border-bottom:solid #f3976c}@media screen and (max-width:767px){.phrase-debut{border-bottom:none}}nav{border-bottom:solid 10px #f3976c}@media screen and (max-width:767px){nav ul li{position:relative;left:-490px}}@media screen and (max-width:992px){nav ul li{position:relative;right:300px}}@media screen and (min-width:1920px){nav ul li{position:relative;left:250px}}nav a{text-decoration:none;color:#000}nav a:hover{color:#f3976c;font-weight:700}nav ul{display:flex;flex-direction:row;text-align:center;position:relative;left:450px}nav ul li{padding-left:40px}h1{font-family:KaushanScript-Regular}h2{font-family:EncodeSans;font-weight:1000px}h3{background-color:#f3976c;color:#000;padding-top:30px;padding-bottom:30px;margin-top:100px;font-family:EncodeSans;text-align:center;font-size:25px;font-weight:700}@media screen and (max-width:767px){h3{margin-top:10px}}h4{font-family:KaushanScript-Regular}p{font-family:EncodeSans}.services-texte{width:300px}@media screen and (max-width:767px){.services-texte{width:400px}}@media screen and (max-width:375px){.services-texte{width:370px}}@media screen and (max-width:320px){.services-texte{width:320px}}main{padding-top:40px;padding-bottom:20px;background-color:#f3976c;display:flex;flex-direction:row;justify-content:space-around;position:relative;bottom:30px}@media screen and (max-width:767px){main{flex-direction:column}}.services{text-align:center;transition-property:all}.services:hover .icon{transform:scale(1.5);transition-timing-function:ease}.icon{font-size:50px;transition-duration:.8s}section{background-color:#fff;padding-bottom:50px}.expertises1{margin-top:50px;display:flex;flex-direction:row;justify-content:space-evenly}@media screen and (max-width:767px){.expertises1{flex-direction:column}}.expertises2{margin-top:50px;display:flex;flex-direction:row;justify-content:space-evenly}@media screen and (max-width:767px){.expertises2{flex-direction:column;position:relative;bottom:40px}}figure{border:solid 2px #f3976c;border-radius:20px;transition:1s}figure img{border-top-left-radius:18px;border-top-right-radius:18px;width:280px;height:302px}@media screen and (max-width:767px){figure img{width:330px;height:300px}}@media screen and (max-width:375px){figure img{width:291px;height:300px}}@media screen and (max-width:320px){figure img{width:236px;height:200px}}figcaption{text-align:center;font-weight:700;font-size:15px}figure:hover{background-color:#f3976c;color:#fff}aside{display:flex;flex-direction:row;margin-top:200px;margin-bottom:50px;height:250px;position:relative;bottom:50px}@media screen and (max-width:767px){aside{margin-top:100px;margin-bottom:5px;bottom:10px}}.but{width:50%;font-family:EncodeSans;font-size:22.5px;background-color:#f3976c;position:relative}@media screen and (max-width:767px){.but{font-size:13px;height:155px}}@media screen and (max-width:375px){.but{font-size:13px;height:170px}}.objectif{position:relative;top:25%}@media screen and (max-width:767px){.citation{font-size:12px;height:150px}}@media screen and (max-width:375px){.citation{font-size:12px;height:165px}}@media screen and (max-width:767px){.aspa1,.aspa2{display:none}}@media screen and (max-width:992px){.objectif{top:10%}}.citation{width:50%;display:flex;flex-direction:column;background-color:#fff;border:solid #f3976c}.phrase{font-family:EncodeSans;font-style:italic;margin-left:50px;margin-right:50px;position:relative;top:10px}@media screen and (max-width:767px){.phrase{width:180px;right:40px;margin-top:10px}}@media screen and (max-width:992px){.phrase{top:-5px}}@media screen and (max-width:375px){.phrase{right:45px}}@media screen and (max-width:320px){.phrase{width:160px}}.aspa1{font-family:EncodeSans;font-size:40px;font-style:italic;top:20%}.aspa2{font-family:EncodeSans;font-size:40px;font-style:italic;position:relative;left:90%;top:10%}@media screen and (max-width:992px){.aspa2{top:-5%}}.reference{font-family:EncodeSans;position:relative;left:40%;top:10%;font-weight:bolder}@media screen and (max-width:767px){.reference{margin-top:5px}}@media screen and (max-width:992px){.reference{top:-1%;left:15%}}@media screen and (max-width:375px){.reference{left:10%}}.contact{background-image:url(la-chouette-agence-banniere.webp);text-align:center;display:flex;flex-direction:column;padding-top:80px;padding-bottom:80px;border-top:solid 5px #f3976c}footer{background-color:#f3976c;text-align:center;padding-bottom:30px;padding-top:10px}@media screen and (max-width:767px){footer{padding-right:10px}}ul li{list-style:none;font-family:EncodeSans}.fa{padding-right:150px;position:relative;left:50px;top:10px;font-size:20px;transition:.5s}@media screen and (max-width:767px){.fa{padding-right:50px;left:30px}}.fa:hover{color:#fff}.texte1{font-family:EncodeSans;font-size:50px;color:#fff;width:550px;position:relative;left:30%;bottom:20px}@media screen and (min-width:1920px){.texte1{left:35%}}@media screen and (max-width:992px){.texte1{left:15%}}@media screen and (max-width:767px){.texte1{font-size:30px;width:300px}}@media screen and (max-width:320px){.texte1{left:4%}}.texte2{font-family:EncodeSans;font-size:20px;color:#fff;border:solid #f3976c;background-color:#f3976c;opacity:75%;width:500px;position:relative;left:32%;top:20px}@media screen and (max-width:992px){.texte2{left:20%}}.button{font-family:EncodeSans;position:relative;left:45%;margin-top:25px;margin-bottom:25px;background-color:#fff;color:#f3976c;font-size:20px;padding-top:10px;padding-bottom:10px;width:150px;border-radius:20px;transition:.8s}@media screen and (max-width:992px){.button{left:40%}}.button:hover{transform:scale(1.2)}.button a{text-decoration:none;color:#f3976c}form{background-color:#f3976c;font-family:EncodeSans;padding-top:10px;padding-bottom:10px;width:500px;position:relative;left:30%;border-radius:15px;opacity:80%}textarea{width:300px;height:80px;margin-top:10px}@media screen and (max-width:992px){form{left:20%}}@media screen and (max-width:767px){form{left:2%;width:400px}}@media screen and (max-width:375px){form{width:358px}}@media screen and (max-width:320px){form{width:310px}}@media screen and (min-width:1920px){form{left:35%}}.button-form{background-color:#fff;border-radius:10px;border:solid #f3976c}.form-nom{position:relative;right:50px}#brief{margin-top:10px;margin-bottom:10px;width:300px;height:100px}
+@font-face {
+    font-family: 'KaushanScript-Regular';
+    src: url('KaushanScript-Regular.eot');
+    src: url('KaushanScript-Regular.eot?#iefix') format('embedded-opentype'),
+         url('KaushanScript-Regular.ttf') format('truetype'),
+         url('KaushanScript-Regular.svg#cac_Kaushan') format('svg');  
+         font-display: swap;
+}
+
+@font-face {
+    font-family: 'EncodeSans';
+    src: url('EncodeSans-VariableFont_wdth,wght.eot');
+    src: url('EncodeSans-VariableFont_wdth,wght.eot?#iefix') format('embedded-opentype'),
+         url('EncodeSans-VariableFont_wdth,wght.ttf') format('truetype'),
+         url('EncodeSans-VariableFont_wdth,wght.svg#cac_EncodeSans') format('svg'); 
+         font-display: swap; 
+}
+
+
+html, body
+    {
+
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+
+    }
+
+    body{background-image: url("image-de-presentation.webp");
+   }
+
+    @media screen and (max-width: 767px){
+        html, body
+    {
+
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+
+    }
+    }
+
+header{
+    position: relative;
+    bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 20px;
+background-image: none;
+background-color: #FFF;
+}
+
+
+
+header img{
+    width: 150px;
+    height: 150px;
+    padding-top: 10px;
+}
+
+.phrase-debut{font-family: 'EncodeSans';
+font-size: 14px;
+font-style: italic;
+position: relative;
+padding-bottom: 5px;
+bottom: 15px;
+border-bottom: solid #F3976C}
+
+@media screen and (max-width: 767px){
+    .phrase-debut{
+       border-bottom: none;
+    }
+}
+
+nav{border-bottom: solid 10px #F3976C;
+}
+
+
+
+@media screen and (max-width: 767px){
+    nav ul li{position: relative;
+      left: -490px;
+    }
+}
+
+@media screen and (max-width: 280px){
+    nav ul li{position: relative;
+      left: -510px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    nav ul li{position: relative;
+        right: 300px;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    nav ul li{
+        position: relative;
+        left: 250px;
+    }
+}
+
+nav a{text-decoration: none;
+color: black;}
+
+nav a:hover{
+    color: #F3976C;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    position: relative;
+    left: 450px;
+}
+
+nav ul li{
+    padding-left: 40px;
+}
+
+h1{ font-family: 'KaushanScript-Regular';}
+
+h2{ font-family: 'EncodeSans';
+font-weight: 1000px;
+}
+
+h3{
+background-color: #F3976C;
+color: black;
+padding-top: 30px;
+padding-bottom: 30px;
+    margin-top: 100px;
+    font-family: 'EncodeSans';
+text-align: center;
+font-size: 25px;
+font-weight: bold;}
+
+@media screen and (max-width: 767px){
+    h3{
+       margin-top: 10px;
+    }
+}
+
+h4{font-family:'KaushanScript-Regular';
+position: relative;
+}
+
+p{font-family: 'EncodeSans';}
+
+.services-texte{width: 300px;}
+
+@media screen and (max-width: 767px){
+    .services-texte{width: 400px;}
+}
+
+@media screen and (max-width: 375px){
+    .services-texte{width: 370px;}
+}
+
+@media screen and (max-width: 320px){
+    .services-texte{width: 320px;}
+}
+
+@media screen and (max-width: 280px){
+    .services-texte{width: 280px;}
+}
+
+main{
+    
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: #F3976C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    bottom: 30px;
+   
+}
+
+@media screen and (max-width: 767px){
+    main{
+        flex-direction: column;
+    }
+}
+
+
+
+.services{
+  
+    text-align: center;
+    transition-property: all;
+
+}
+
+
+
+.services:hover .icon{
+transform: scale(1.5);
+transition-timing-function: ease;
+}
+
+.icon{
+    font-size: 50px;
+    transition-duration: 800ms;
+}
+
+section{
+    background-color:#FFF ;
+    padding-bottom: 50px;
+
+}
+
+.expertises1{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+}
+
+@media screen and (max-width: 767px){
+    .expertises1{
+        flex-direction: column;
+    }
+}
+
+
+.expertises2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+@media screen and (max-width: 767px){
+    .expertises2{
+        flex-direction: column;
+        position: relative;
+        bottom: 40px;
+    }
+}
+
+
+figure{
+    border: solid 2px #F3976C;
+    border-radius: 20px;
+    transition: 1000ms;
+}
+
+figure img{
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    width: 280px;
+    height: 302px;
+}
+
+
+
+
+@media screen and (max-width: 767px){
+    figure img{
+        width: 330px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    figure img{
+        width: 291px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 320px){
+figure img{
+    width: 236px;
+    height: 200px;
+}}
+
+@media screen and (max-width: 280px){
+    figure img{
+        width: 196px;
+        height: 150px;
+    }}
+
+figcaption{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+figure:hover{
+    background-color: #F3976C;
+   color: #FFF;
+}
+
+aside{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    height: 250px;
+    position: relative;
+    bottom: 50px;
+    
+}
+
+
+@media screen and (max-width: 767px){
+    aside{
+        margin-top: 100px;
+        margin-bottom: 5px;
+        bottom: 10px;
+    }
+}
+
+.but{
+    width: 50%;
+    font-family: 'EncodeSans';
+    font-size: 22.5px;
+    background-color: #F3976C;
+    position: relative;
+}
+
+@media screen and (max-width: 767px){
+    .but{
+        font-size: 13px;
+     height: 155px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .but{
+        font-size: 13px;
+     height: 170px;
+    }
+}
+
+@media screen and (max-width: 280px){
+    .but{
+        font-size: 11px;
+     height: 170px;
+    }
+}
+
+.objectif{
+    position: relative;
+    top: 25%;
+ 
+}
+
+@media screen and (max-width: 767px){
+    .citation{
+        font-size: 12px;
+     height: 150px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .citation{
+        font-size: 12px;
+     height: 165px;
+    }
+}
+
+@media screen and (max-width: 280px){
+    .citation{font-size: 10px;}
+}
+
+@media screen and (max-width: 767px){
+    .aspa1, .aspa2{display: none;}
+}
+
+@media screen and (max-width: 992px){
+
+    .objectif{
+        top: 10%;
+    }
+    
+    }
+
+.citation{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    border: solid #F3976C;
+}
+
+.phrase{
+    font-family: 'EncodeSans';
+    font-style: italic;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    top: 10px;
+}
+
+@media screen and (max-width: 767px){
+    .phrase{
+       width: 180px;
+       right: 40px;
+       margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .phrase{
+        top: -5px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .phrase{
+        right: 45px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .phrase{
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 280px){
+    .phrase{width: 140px;}
+}
+
+
+.aspa1{
+    font-family: 'EncodeSans';
+    font-size: 40px;
+    font-style: italic;
+    top: 20%;
+}
+
+.aspa2{
+    font-family: 'EncodeSans';
+    font-size: 40px;
+    font-style: italic;
+    position: relative;
+    left: 90%;
+    top: 10%;
+}
+
+@media screen and (max-width: 992px){
+    .aspa2{
+        top: -5%;
+    }
+}
+
+.reference{
+    font-family: 'EncodeSans';
+    position: relative;
+    left: 40%;
+    top: 10%;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 767px){
+    .reference{
+       margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .reference{
+        top: -1%;
+        left: 15%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .reference{
+        left: 10%;
+    }
+}
+
+@media screen and (max-width: 280px){
+    .reference{position: relative;
+       left: 2%;}
+}
+
+.contact{
+    background-image: url("la-chouette-agence-banniere.webp");
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+ padding-top: 80px;
+ padding-bottom: 80px;
+ border-top: solid 5px #F3976C;
+}
+
+
+footer{
+    background-color:#F3976C;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+@media screen and (max-width: 767px){
+    footer{
+        padding-right: 10px;
+    }
+}
+
+
+ul li{list-style: none;
+font-family: 'EncodeSans';
+position: relative;
+right: 20px;}
+
+.fa{padding-right: 150px;
+position: relative;
+left: 60px;
+top: 10px;
+font-size: 20px;
+transition: 500ms;}
+
+@media screen and (max-width: 767px){
+    .fa{padding-right: 50px;
+    left: 30px;}
+}
+
+@media screen and (max-width: 280px){
+    .fa{
+        left: 10px;
+        padding-right: 30px;
+    }
+}
+
+.fa:hover{color: #FFF;
+    
+}
+
+.texte1{font-family: 'EncodeSans';
+font-size: 50px;
+color: #FFF;
+    width: 550px;
+    position: relative;
+    left: 30%;
+    bottom: 20px;
+
+}
+
+@media screen and (min-width: 1920px){
+    .texte1{
+        left: 35%;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .texte1{
+        left: 15%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .texte1{
+        font-size: 30px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .texte1{left: 4%;}
+}
+
+@media screen and (max-width: 280px){
+    .texte1{width: 280px;
+    left: 1%}
+}
+
+.texte2{font-family: 'EncodeSans';
+    font-size: 20px;
+    color: #FFF;
+    border: solid #F3976C;
+    background-color: #F3976C;
+opacity: 75%;
+    width: 500px;
+    position: relative;
+    left: 32%;
+    top: 20px;
+    }
+
+    @media screen and (max-width: 992px){
+        .texte2{
+            left: 20%;
+        }
+    }
+
+.button{
+    font-family: 'EncodeSans';
+    position: relative;
+    left: 45%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #FFF;
+    color:#F3976C;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    border-radius: 20px;
+    transition: 800ms;
+}
+
+@media screen and (max-width: 992px){
+    .button{
+        left: 40%;
+    }
+}
+
+.button:hover{
+    transform: scale(1.2);
+}
+
+.button a{
+    text-decoration: none;
+    color:#F3976C;
+}
+
+form{
+    background-color: #F3976C;
+    font-family: 'EncodeSans';
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 500px;
+    position: relative;
+    left: 32%;
+    border-radius: 15px;
+    opacity: 80%;
+}
+
+textarea{
+    width: 280px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 280px){
+   textarea{
+       width: 240px;
+   }
+}
+
+@media screen and (max-width: 992px){
+    form{
+        left: 20%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    form{
+        left: 2%;
+        width: 400px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    form{
+        width: 358px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    form{
+        width: 310px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 280px){
+    form{width: 270px;
+    font-size: 8px;}
+}
+
+@media screen and (min-width: 1920px){
+    form{
+        left: 37%;
+    }
+}
+
+
+.button-form{background-color: #FFF;
+border-radius: 10px;
+border: solid #F3976C}
+
+.form-nom{position: relative;
+right: 50px;}
+
+.labelnom{
+    position: relative;
+    right: 72px;
+}
+
+@media screen and (max-width: 767px){
+    .labelnom{right: 20px;}
+}
+
+@media screen and (max-width: 320px){
+    .labelnom{right: 7px;}
+}
+
+@media screen and (max-width: 280px){
+    .labelnom{
+        left: 5px;
+    }
+}
+
+.labelmail{
+    position: relative;
+    right: 90px;
+}
+
+@media screen and (max-width: 767px){
+    .labelmail{right: 46px;}
+}
+
+@media screen and (max-width: 320px){
+    .labelmail{right: 37px;}
+}
+
+@media screen and (max-width: 280px){
+    .labelmail{
+        right: 30px;
+    }
+}
+
+
+.labelquestion{
+    position: relative;
+    right: 22px;
+}
+
+@media screen and (max-width: 767px){
+    .labelquestion{left: 7px;}
+}
+
+@media screen and (max-width: 320px){
+    .labelquestion{left: 7px;}
+}
+
+@media screen and (max-width: 280px){
+    .labelquestion{
+        left: 6px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .labelbrief{
+         position: relative;
+         left: 3px;}
+ }
+
+ @media screen and (max-width: 320px){
+    .labelbrief{left: 3px;}
+}
+
+
+
+@media screen and (max-width: 320px){
+    input{width: 120px;}
+}
+
+@media screen and (max-width: 280px){
+    input{
+        width: 95px;
+    }
+}
+
+
+#brief{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 280px;
+    height: 100px;
+}
+
